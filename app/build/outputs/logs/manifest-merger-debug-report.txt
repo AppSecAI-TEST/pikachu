@@ -37,20 +37,24 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\us
 		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.user.hithithit.MainActivity
-ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:12:9-18:20
+activity#com.example.user.hithithit.psfirst
+ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
-		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:12:19-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
 ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
 		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:15:27-74
+activity#com.example.user.hithithit.MainActivity
+ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:18:9-49
+	android:name
+		ADDED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml:18:19-47
 uses-sdk
 INJECTED from E:\Android\AndroidStudioProjects\HitHitHit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\user\.android\build-cache\1293472fb10771fd66a9cd8c6b61a691b6525ac8\output\AndroidManifest.xml:21:5-23:78
