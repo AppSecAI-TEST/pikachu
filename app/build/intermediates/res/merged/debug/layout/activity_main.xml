@@ -66,11 +66,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="START"
+
+        android:textColor="@android:color/background_dark"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="START"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@android:color/background_dark" />
+        android:layout_marginBottom="42dp" />
 
 
 </RelativeLayout>
