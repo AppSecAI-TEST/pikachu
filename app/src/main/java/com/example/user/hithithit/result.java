@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 
 public class result extends AppCompatActivity {
 
@@ -39,5 +41,26 @@ public class result extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
     }
+    public void onBackPressed() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(result.this);
+        builder.setMessage("Game Over...!\nDo you want to exit from game");
+        builder.setCancelable(true);
+        builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finishAffinity();
+
+            }
+        });
+        builder.setNegativeButton("restart", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                startActivity(new Intent(result.this,MainActivity.class));
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
 }
+
 
