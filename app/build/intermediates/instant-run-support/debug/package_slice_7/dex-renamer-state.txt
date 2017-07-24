@@ -1,4 +1,4 @@
-#Sun Jul 23 13:52:49 PDT 2017
+#Mon Jul 24 13:51:26 PDT 2017
 base.0=E\:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
 file.0=E\:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.user.hithithit.MainActivity" />
+        <activity android:name="com.example.user.hithithit.result" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

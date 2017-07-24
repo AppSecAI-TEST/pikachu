@@ -1,5 +1,6 @@
 package com.example.user.hithithit;
 
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
 
     AnimationDrawable an;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         p1.setVisibility(View.INVISIBLE);
         p2.setVisibility(View.INVISIBLE);
         p3.setVisibility(View.INVISIBLE);
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
     }
     private void theGameActions(){
          if(score<10) {
@@ -170,6 +172,10 @@ public class MainActivity extends AppCompatActivity {
                 if (left == 0) {
                     Toast.makeText(MainActivity.this, "GAME OVER", Toast.LENGTH_SHORT).show();
                     button.setEnabled(true);
+                    Intent intent =new Intent(getApplicationContext(),result.class);
+                    intent.putExtra("SCORE",score);
+                    Intent intent1 =new Intent(MainActivity.this,result.class);
+                    startActivity(intent);
                 } else if (left > 0) {
                     theGameActions();
                 }

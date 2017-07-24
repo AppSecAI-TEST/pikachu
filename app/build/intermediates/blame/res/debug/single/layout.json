@@ -166,5 +166,9 @@
     {
         "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_result.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\src\\main\\res\\layout\\activity_result.xml"
     }
 ]
