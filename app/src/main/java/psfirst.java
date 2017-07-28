@@ -3,6 +3,7 @@
  */
 package com.example.user.hithithit;
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,16 +12,23 @@ import android.support.v7.app.AlertDialog;
 
 
 public class psfirst extends AppCompatActivity{
-
+    private static int time =2500;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.psfirst);
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run(){
+                Intent i=new Intent(psfirst.this,MainActivity.class);
+                startActivity(i);
+                overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
+                finish();
+            }
+        },time);
+
     }
-    public void first(View view){
-        Intent i=new Intent(psfirst.this,MainActivity.class);
-        startActivity(i);
-    }
+
     public void onBackPressed(){
         AlertDialog.Builder builder=new AlertDialog.Builder(psfirst.this);
         builder.setMessage("Do you want to exit?");

@@ -19,6 +19,8 @@ public final class R {
         public static final int abc_slide_in_top=0x7f050007;
         public static final int abc_slide_out_bottom=0x7f050008;
         public static final int abc_slide_out_top=0x7f050009;
+        public static final int fade_in=0x7f05000a;
+        public static final int fade_out=0x7f05000b;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -2339,7 +2341,6 @@ containing a value of this type.
         public static final int beginning=0x7f0b0022;
         public static final int bottom=0x7f0b002a;
         public static final int button=0x7f0b0064;
-        public static final int button3=0x7f0b007f;
         public static final int buttonPanel=0x7f0b0036;
         public static final int cancel_action=0x7f0b006b;
         public static final int chains=0x7f0b0010;

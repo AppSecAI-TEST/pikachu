@@ -12,6 +12,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\1293472fb10771fd66a9cd8c6b61a691b6525ac8\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
         "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\1293472fb10771fd66a9cd8c6b61a691b6525ac8\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
@@ -38,5 +42,9 @@
     {
         "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\1293472fb10771fd66a9cd8c6b61a691b6525ac8\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "E:\\Android\\AndroidStudioProjects\\HitHitHit\\app\\src\\main\\res\\anim\\fade_out.xml"
     }
 ]

@@ -8,6 +8,8 @@ int anim abc_slide_in_bottom 0x7f050006
 int anim abc_slide_in_top 0x7f050007
 int anim abc_slide_out_bottom 0x7f050008
 int anim abc_slide_out_top 0x7f050009
+int anim fade_in 0x7f05000a
+int anim fade_out 0x7f05000b
 int attr actionBarDivider 0x7f01006d
 int attr actionBarItemBackground 0x7f01006e
 int attr actionBarPopupTheme 0x7f010067
@@ -604,7 +606,6 @@ int id basic 0x7f0b000f
 int id beginning 0x7f0b0022
 int id bottom 0x7f0b002a
 int id button 0x7f0b0064
-int id button3 0x7f0b007f
 int id buttonPanel 0x7f0b0036
 int id cancel_action 0x7f0b006b
 int id chains 0x7f0b0010
